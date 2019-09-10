@@ -1,6 +1,6 @@
 provider "example" {
   address = "http://localhost"
-  port    = "3001"
+  port    = "8085"
   token   = "superSecretToken"
 }
 
