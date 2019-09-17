@@ -1,27 +1,27 @@
 variable "company" {
         default = "company-name"
-    }    
+    }
     
 variable "env" {
         default = "dev"
     }
     
 variable "var_region_name" { 
-        default = "company-name"
+        default = "us-central-1"
     }
     
-variable "uc1_private_subnet" {
-        default = "10.26.1.0/24"
+variable "var_zones" { 
+        default = "var_zones"
     }
     
-variable "uc1_public_subnet" {
-        default = "10.26.2.0/24"
+variable "var_uc1_public_subnet" {
+        default = "var_uc1_public_subnet"
     }
     
-variable "ue1_private_subnet" {
-        default = "10.26.3.0/24"
+variable "network_self_link" {
+        default = "network_self_link"
     }
     
-variable "ue1_public_subnet" {
-        default = "10.26.4.0/24"
+variable "var_region_name" { 
+        default = "var_region_name"
     }
